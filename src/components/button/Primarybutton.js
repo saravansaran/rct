@@ -1,9 +1,10 @@
 import React from "react";
+import "./Primarybutton.css";
 
 export default function Primarybutton() {
   return (
     <>
-      <button>Primary Button</button>
+      <button className="primary-btn">Primary Button</button>
     </>
   );
 }
